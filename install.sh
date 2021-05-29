@@ -1151,6 +1151,10 @@
     #If you want remove the hold : sudo apt-mark unhold openssl
     sudo apt-mark hold openssl
 
+
+    #Xudong: update php7.3  added on 20210529
+    apt_install php7.3-memcache php7.3-memcached memcached
+    
     #Restart service
     sudo systemctl restart cron.service
     sudo systemctl restart mysql
